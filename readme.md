@@ -7,7 +7,7 @@ Create markdown file for "Today I Learned"
 
 ## Install
 ```
-$ npm install tilmd
+$ npm install -g tilmd
 ```
 
 ## Usage
