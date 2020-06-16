@@ -9,7 +9,7 @@
     "url": "https://github.com/ktguy123/tilmd.git"
   },
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava test/test-*.js --verbose"
   },
   "files": [
     "index.js",
