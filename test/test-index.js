@@ -1,5 +1,5 @@
 const test = require('ava');
-const tilmd = require('../.');
+const tilmd = require('../index');
 const fs = require('fs');
 
 test('create default.md ', t => {
