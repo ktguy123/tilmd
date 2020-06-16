@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/ktguy123/tilmd.svg?branch=master)](https://travis-ci.org/ktguy123/tilmd)
 
-# TILRD
-> Today I Learned ReaDme maker  
+# TILMD
+> Today I Learned MarkDown maker  
 
-Create .md file for "Today I Learned"  
+Create markdown file for "Today I Learned"  
 
 ## Install
 ```
