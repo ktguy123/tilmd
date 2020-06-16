@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.org/ktguy123/tilmd.svg?branch=master)](https://travis-ci.org/ktguy123/tilmd)
 
-# cmcm
-Create .md file for til  
+# TILRD
+> Today I Learned ReaDme maker  
+
+Create .md file for "Today I Learned"  
 
 ## Install
 ```
