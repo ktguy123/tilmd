@@ -12,12 +12,16 @@ $ npm install -g tilmd
 
 ## Usage
 ```
-Usage
-  $ tilmd [filename] [options]
+$ tilmd --help
 
-Example
-  $ ctilmd studyfile -a 
+  Create markdown file for "Today I Learned"
+  
+  Usage
+    $ tilmd [filename] [options]
 
-Options
-  --regster -r   Generate a file based on the registered file (default, light, detail)
+  Example
+    $ ctilmd studyfile -a 
+
+  Options
+    --regster -r   Generate a file based on the registered file (default, light, detail)
 ```
