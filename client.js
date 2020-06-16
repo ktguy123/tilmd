@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const tilmd = require('.');
+const tilmd = require('./index');
 const meow = require('meow');
 
 const cli = meow(`
