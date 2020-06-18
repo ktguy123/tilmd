@@ -2,11 +2,13 @@
 
 # tilmd
 Create .md file for til  
+Today I Learned用のmarkdownファイルを作成します
 
 # TILMD
 > Today I Learned MarkDown maker  
 
 Create markdown file for "Today I Learned"  
+Today I Learned用のmarkdownファイルを作成します
 
 ## Install
 ```
@@ -23,8 +25,9 @@ $ tilmd --help
     $ tilmd [filename] [options]
 
   Example
-    $ ctilmd studyfile
+    $ ctilmd studyfile -r light
 
   Options
     --regster -r   Generate a file based on the registered file (default, light, detail)
+		--regster -r   登録されたファイル(default, light, detail)に基づいてmdファイルを生成します
 ```
