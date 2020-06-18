@@ -1,6 +1,7 @@
 const fs = require('fs');
+const path = require('path');
 
-module.exports = function(inFile_md = "default.md", outFile_md = "output.md") {    
-  const data = fs.readFileSync(__dirname + "/template/"+ inFile_md, 'utf8'); 
-  fs.writeFileSync(process.cwd() + '/' + outFile_md, data, 'utf8');
-}
+module.exports = function (inFileMd = 'default.md', outFileMd = 'output.md') {
+	const data = fs.readFileSync(path.join(__dirname, 'lib', inFileMd), 'utf8');
+	fs.writeFileSync(path.join(process.cwd(), outFileMd), data, 'utf8');
+};

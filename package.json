@@ -9,12 +9,18 @@
     "url": "https://github.com/ktguy123/tilmd.git"
   },
   "scripts": {
-    "test": "ava test/test-*.js --verbose"
+    "test": "ava test/test-*.js --verbose",
+    "lint": "xo *.js"
   },
   "files": [
     "index.js",
-    "client.js"
-  ],
+		"client.js",
+		"lib/*.md"
+	],
+	"directories": {
+		"lib": "lib/",
+		"test":"test/"
+  },
   "keywords": [
     "markdown",
     "til"
@@ -25,6 +31,8 @@
     "meow": "^7.0.1"
   },
   "devDependencies": {
-    "ava": "^3.9.0"
+    "ava": "^3.9.0",
+    "eslint": "^7.2.0",
+    "xo": "^0.32.0"
   }
 }

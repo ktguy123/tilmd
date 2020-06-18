@@ -13,7 +13,7 @@ test('create default.md ', t => {
 
 test('create light.md', t => {
   try{
-    tilmd('light.md', 'test.md');
+		tilmd('light.md', 'test.md');
   }catch(err){
     console.log(err);
   }
